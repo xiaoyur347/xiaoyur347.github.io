@@ -1,6 +1,6 @@
 ---
 title: 从头开始
-layout: default
+layout: post
 ---
 
 # 1. 打算迁移空间
@@ -68,7 +68,9 @@ $ sudo apt-get install -y ruby2.1 ruby2.1-dev ruby2.1-doc
 
 ```shell
 $ bundle exec jekyll serve
-/var/lib/gems/2.1.0/gems/execjs-2.5.2/lib/execjs/runtimes.rb:48:in `autodetect': Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable)
+/var/lib/gems/2.1.0/gems/execjs-2.5.2/lib/execjs/runtimes.rb:48:in `autodetect': 
+Could not find a JavaScript runtime. 
+See https://github.com/rails/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable)
 ```
 
 处理方法：
