@@ -1,6 +1,11 @@
 ---
 title: openssl cross compile
 layout: post
+category: 嵌入式
+tags: [编译]
+---
+{% include JB/setup %}
+# openssl cross compile
 ---
 
 arm:
@@ -14,6 +19,8 @@ mips:
 ```shell
 perl ./Configure linux-elf --cross-compile-prefix=mipsel-linux-
 ```
+
+<!--break-->
 
 x86:
 

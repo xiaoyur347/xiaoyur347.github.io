@@ -1,6 +1,11 @@
 ---
 title: libpng speed
 layout: post
+category: 库
+tags: [图形库]
+---
+{% include JB/setup %}
+# libpng speed
 ---
 
 For png (24 bit) photo, I tested the speed of libpng, lodepng and yspng, and got the following result.

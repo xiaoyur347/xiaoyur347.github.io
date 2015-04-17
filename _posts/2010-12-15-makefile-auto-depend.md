@@ -1,6 +1,11 @@
 ---
 title: Makefile自动依赖
 layout: post
+category: 编译
+tags: [编译]
+---
+{% include JB/setup %}
+# Makefile自动依赖
 ---
 
 makefile文件
@@ -30,6 +35,8 @@ $(CPP) $(INCDIRS) $(CPPFLAGS) $(RMCFLAGS) -MD -c $< 说明：用于生成依赖�
 # 4. 增加.d文件清理
 修改clean命令为clean:
      rm -f $(TARGET) $(OBJECTFILES) $(DEPENDFILES)
+
+<!--break-->
 
 # 附录
 ```shell

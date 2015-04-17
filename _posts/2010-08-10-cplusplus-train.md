@@ -1,7 +1,14 @@
 ---
 title: C++培训练习题
 layout: post
+category: 嵌入式
+tags: [培训]
 ---
+{% include JB/setup %}
+# C++培训练习题
+---
+
+<!--break-->
 
 # 1. 构造和静态构造
 

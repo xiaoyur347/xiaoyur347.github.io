@@ -1,7 +1,14 @@
 ---
 title: gperftools small contribution
 layout: post
+category: C++工具
+tags: [gperftools]
 ---
+{% include JB/setup %}
+# gperftools small contribution
+---
+
+<!--break-->
 
 ```shell
 ./configure CC=clang CXX="clang++ -Qunused-arguments" CXXFLAGS="-fno-builtin"
