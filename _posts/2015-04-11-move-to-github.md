@@ -6,7 +6,7 @@ layout: post
 # 1. 打算迁移空间
 百度空间这鬼，终于倒闭了。是时候整理自己的东西，重新来过了。
 不打算浪费时间在各种博客空间的选择上，git这东西好，不管网站是否还在，本地的总是在的。所以我打算试试github io。
-不知道为何，我的github io配置总是失败，暂时还没找到原因。github有过一封邮件说是index.html的编码问题，可是我修改后还是如此。那就试试装jeyll找找问题吧。
+不知道为何，我的github io配置总是失败，暂时还没找到原因。github有过一封邮件说是index.html的编码问题，可是我修改后还是如此。那就试试装jekyll找找问题吧。
 
 # 2. 参考
 * http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html 阮一峰的jekyll入门
@@ -16,7 +16,7 @@ layout: post
 # 3. 404问题确认 —— 文件编码问题
 按照阮一峰的jekyll入门配置，在github上提示有问题，确认是没有使用UTF8编码的问题，转换编码后一切正常，除了不好看。
 
-# 4. ubuntu 12.04安装jeyll
+# 4. ubuntu 12.04安装jekyll
 
 ## 问题1：墙 —— 改用taobao源
 https://help.github.com/articles/using-jekyll-with-pages/
